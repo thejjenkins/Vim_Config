@@ -42,9 +42,9 @@ set completeopt=popup
 inoremap <silent><expr> <Tab>   pumvisible() ? "\<C-n>" : "\<Tab>"
 inoremap <silent><expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
 
-" the next lines remap Esc to ak in insert and visual mode, respectively
-inoremap ak <Esc>
-vnoremap ak <Esc>
+" the next lines remap Esc to fj in insert and visual mode, respectively
+inoremap fj <Esc>
+vnoremap fj <Esc>
 
 " the next 8 lines set the cursor type.
 " see :help termcap-cursor-shape for more info
